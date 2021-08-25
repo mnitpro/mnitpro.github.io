@@ -1,0 +1,517 @@
+{
+  "Rx": {
+    "MessageHeader": {
+      "Version": "2.0",
+      "MessageID": "b07d59c4-a401-b95b-1ea7ee604011",
+      "SentOnUTC": "2021-03-13T19:38:45.9774492Z",
+      "WorkStation": "MAIN-POS",
+      "InitiatingEventID": "10",
+      "InitiatingEventText": "StatusChange"
+    },
+    "Body": {
+      "Pharmacy": {
+        "Identification": {
+          "PharmacyPioneerRxID": "af509b0c-1490-4bc8-b043-b503c28daec5",
+          "NCPDP": "9999999",
+          "NPI": "12345678901",
+          "DEA": "FB999999",
+          "DPS": null,
+          "FederalTaxID": "8888888888",
+          "StateLicenseNumber": "DS999##"
+        },
+        "PharmacyName": "PioneerRx Pharmacy",
+        "StoreNumber": null,
+        "Addresses": {
+          "Address": [
+            {
+              "SequenceNumber": "1",
+              "AddressLine": "3158 Main St",
+              "City": "Shreveport",
+              "StateCode": "LA",
+              "ZipCode": "11111-4444",
+              "Type": "Primary"
+            }
+          ]
+        },
+        "PhoneNumbers": {
+          "PhoneNumber": [
+            {
+              "SequenceNumber": "1",
+              "AreaCode": "666",
+              "Number": "5556666",
+              "Extension": "0",
+              "Type": "Primary"
+            },
+            {
+              "SequenceNumber": "2",
+              "AreaCode": "666",
+              "Number": "4443333",
+              "Extension": "0",
+              "Type": "Primary Fax"
+            }
+          ]
+        },
+        "PrimaryPhoneSequenceNumber": "1",
+        "PrimaryFaxSequenceNumber": "2",
+        "Email": "Contact@SomePharmacy.com",
+        "WebAddress": "http://www.SomePharmacy.com/",
+        "PharmacistInChargePioneerRxID": "85b11595-b855-4566-8657-ef65058dc7eb"
+      },
+      "Employees": {
+        "Employee": [
+          {
+            "Identification": {
+              "EmployeeID": null,
+              "EmployeePioneerRxID": "183998ba-5c20-4158-9430-e3b556a30a08",
+              "NPI": null,
+              "License": null
+            },
+            "EmployeeTypeID": "30a0f283-1afa-41d2-b964-b54a874df618",
+            "EmployeeTypeText": "Licensed Pharmacy Tech",
+            "ChangedOnUTCDateTime": "2020-05-13T13:10:35.697",
+            "Name": {
+              "FirstName": "mini",
+              "LastName": "mouse",
+              "MiddleName": "",
+              "Suffix": null,
+              "Prefix": null,
+              "Initials": "mm"
+            }
+          },
+          {
+            "Identification": {
+              "EmployeeID": null,
+              "EmployeePioneerRxID": "d75f9e74-358e-4ede-9b22-e77c280ef1c9",
+              "NPI": null,
+              "License": "PH887755"
+            },
+            "EmployeeTypeID": "4ad485cd-41e2-4250-b674-bca7f471873d",
+            "EmployeeTypeText": "Pharmacist",
+            "ChangedOnUTCDateTime": "2020-06-15T14:53:29.713Z",
+            "Name": {
+              "FirstName": "Mickey",
+              "LastName": "Moose",
+              "MiddleName": "J",
+              "Suffix": null,
+              "Prefix": null,
+              "Initials": "MM"
+            }
+          },
+          {
+            "Identification": {
+              "EmployeeID": null,
+              "EmployeePioneerRxID": "85b11595-b855-4566-8657-ef65058dc7eb",
+              "NPI": null,
+              "License": null
+            },
+            "EmployeeTypeID": "12200be5-0c58-4a38-9550-cda2ea6d4e84",
+            "EmployeeTypeText": "Employee",
+            "ChangedOnUTC": "2020-11-12T23:22:52.903Z",
+            "Name": {
+              "FirstName": "JACK",
+              "LastName": "Daniels",
+              "MiddleName": "",
+              "Suffix": null,
+              "Prefix": null,
+              "Initials": "JD"
+            }
+          }
+        ]
+      },
+      "Prescribers": {
+        "Prescriber": [
+          {
+            "Identification": {
+              "PrescriberPioneerRxID": "f39c3e9b-579f-483c-9edf-4d35164aeff1",
+              "NPI": "44444444444",
+              "DEA": "BR549",
+              "DPS": null,
+              "StateLicense": null,
+              "SerialNumberPerson": "16699"
+            },
+            "Name": {
+              "FirstName": "Jerry",
+              "LastName": "Mouse",
+              "MiddleName": "",
+              "Suffix": null,
+              "Prefix": "Dr.",
+              "Initials": "JM"
+            },
+            "Addresses": {
+              "Address": [
+                {
+                  "SequenceNumber": "1",
+                  "AddressLine": "75 Francis St",
+                  "City": "Cedar Town",
+                  "StateCode": "MS",
+                  "ZipCode": "88888",
+                  "Type": "Primary"
+                }
+              ]
+            },
+            "PhoneNumbers": {
+              "PhoneNumber": [
+                {
+                  "SequenceNumber": "1",
+                  "AreaCode": "666",
+                  "Number": "7778888",
+                  "Type": "Primary Fax"
+                },
+                {
+                  "SequenceNumber": "2",
+                  "AreaCode": "666",
+                  "Number": "8887777",
+                  "Type": "Primary"
+                }
+              ]
+            },
+            "PrimaryPhoneSequenceNumber": "2",
+            "Email": null,
+            "PrescriberTypeID": "d139410d-1df9-4f25-afff-f6f35f4e4c30",
+            "PrescriberTypeText": "M.D.",
+            "ClassificationID": "00000000-0000-0000-0000-000000000000",
+            "ClassificationText": null,
+            "PrimarySpecializationID": null,
+            "PrimarySpecializationText": null,
+            "IsSupervisor": "0",
+            "Comments": {
+              "Informational": null,
+              "Critical": null,
+              "PointOfSale": null
+            },
+            "MarketerEmployeePioneerRxID": null,
+            "ChangedOnUTCDateTime": "2020-08-05T07:34:44.267"
+          }
+        ]
+      },
+      "Patient": {
+        "Identification": {
+          "PatientPioneerRxID": "87f42464-4b01-4bda-8800-e812cc4de875",
+          "SSN": null,
+          "DriversLicenseNumber": "12345",
+          "DriversLicenseStateCode": "LA",
+          "AlternateID": "BR549-1",
+          "AlternateIDTypeID": "0",
+          "AlternateIDTypeText": "Other",
+          "ExternalID": null,
+          "CentralKey": null,
+          "SerialNumberPerson": "15622"
+        },
+        "Name": {
+          "FirstName": "Tom",
+          "LastName": "Cat",
+          "MiddleName": "",
+          "Suffix": null,
+          "Prefix": null,
+          "Initials": "TC"
+        },
+        "Addresses": {
+          "Address": [
+            {
+              "SequenceNumber": "1",
+              "AddressLine": "3 Brown St",
+              "City": "My City",
+              "StateCode": "LA",
+              "ZipCode": "44444",
+              "Type": "Primary"
+            }
+          ]
+        },
+        "PhoneNumbers": {
+          "PhoneNumber": [
+            {
+              "SequenceNumber": "1",
+              "AreaCode": "666",
+              "Number": "9999999",
+              "Type": "Primary"
+            }
+          ]
+        },
+        "PrimaryPhoneSequenceNumber": "1",
+        "RxNotifyPhoneSequenceNumber": null,
+        "RxNotifyTypeID": "0",
+        "RxNotifyTypeText": "Ask Patient?",
+        "RxNotifyProviderTypeID": "0",
+        "RxNotifyProviderTypeText": "Custom",
+        "EZOpenRequested": "0",
+        "HasPatientReceivedNopp": "1",
+        "HeightInches": null,
+        "WeightOunces": null,
+        "IsAnimal": "0",
+        "HipaaStatusTypeID": "2",
+        "HipaaStatusTypeText": "Signed",
+        "Email": null,
+        "Gender": "Female",
+        "LanguageText": "English",
+        "LanguageCode": "en",
+        "DateOfBirth": "11/11/1955",
+        "AutoFillModeTypeID": "0",
+        "AutoFillModeTypeText": "Ask Patient?",
+        "DeliveryMethodTypeID": "0",
+        "DeliveryMethodText": null,
+        "PatientPrimaryPrescriberPioneerRxID": "00000000-0000-0000-0000-000000000000",
+        "HealthCoachEmployeePioneerRxID": "00000000-0000-0000-0000-000000000000",
+        "SyncStatusTypeID": "0",
+        "SyncStatusTypeText": "Not Enrolled",
+        "SyncDate": null,
+        "CallDate": null,
+        "NextPickUpDate": null,
+        "Comments": {
+          "Informational": "02/06/20 10:42 AM  OGPT PREFFERED ONDANSETRON 8 ODT IN BLISTERS----------------------------------------------------01/20/20 10:31 AM  OGDO NOT CALL MD FOR CONTROLLED MEDS09/09/19 03:14 PM  EKSPOKE TO LOU, SHE DOES BOTH BUPROPION SR 100 AND 150MG BUT SHE IS NO LONGER ON PREMARIN SO ASKED ME TO STOP THAT ONE.ID- S22359072",
+          "Critical": "10/22/2020 OG: PCN FOR PART B VAC IS FLUMA ",
+          "PointOfSale": null
+        },
+        "PrimaryCategory": null,
+        "Allergies": null,
+        "ChangedOnUTC": "2021-03-13T19:36:21.64Z",
+        "PatientRiskScore": null,
+        "PatientMultiDose": "0",
+        "AnimalOwnerPioneerRxID": null,
+        "AlertTypeID": "0",
+        "AlertTypeText": "None",
+        "AlertCustomText": null,
+        "AllergyAlertTypeID": "1",
+        "AllergyAlertTypeText": "No Known Allergies",
+        "CreatedOnUTCDateTime": "2019-08-07T04:00:00Z",
+        "DeliveryMethodComment": null,
+        "IgnorePregnancyPrecautions": "false",
+        "UnitDose": "false",
+        "ElectronicPatientEducation": "false"
+      },
+      "Facility": {
+        "Identification": {
+          "GroupCode": null,
+          "FacilityPioneerRxID": null
+        },
+        "Name": null,
+        "PrimaryPhoneSequenceNumber": null,
+        "PatientAdmittedOnDateTime": null,
+        "PatientDischargedOnDateTime": null,
+        "FacilityTypeID": "00000000-0000-0000-0000-000000000000",
+        "FacilityTypeText": null,
+        "WingPioneerRxID": null,
+        "WingName": null,
+        "RoomNumber": null,
+        "Bed": null,
+        "Email": null,
+        "Comments": {
+          "Critical": null,
+          "Informational": null,
+          "PointOfSale": null
+        },
+        "ChangedOnUTC": null,
+        "PackageTypeID": "0",
+        "PackageTypeText": null
+      },
+      "Rx": {
+        "WrittenByPrescriberPioneerRxID": "f39c3e9b-579f-483c-9edf-4d35164aeff1",
+        "WrittenBySupervisorPrescriberPioneerRxID": null,
+        "RxNumber": "333333",
+        "RefillNumber": "1",
+        "RxPioneerRxID": "82b8f03d-8c06-4480-80cd-0175c6aa1b17",
+        "RxFillTransactionPioneerRxID": "3da566f7-7d5c-4bc5-8b73-28de78f7f04d",
+        "ScriptType": "Refill",
+        "PreviousRxNumber": null,
+        "PrescriberOrderNumber": null,
+        "MedicationPrescribed": {
+          "DrugStrength": null,
+          "NDC": null,
+          "UPC": null,
+          "GCN": "41478",
+          "PioneerRxItemID": null,
+          "DeaSchedule": null,
+          "Quantity": "90.00000",
+          "UnitText": "EA",
+          "LabelType": "Generic",
+          "BrandName": "Provigil",
+          "WrittenName": "modafinil 200 mg tablet",
+          "GenericName": "modafinil 200 mg tablet"
+        },
+        "MedicationDispensed": {
+          "DrugStrength": "200 mg",
+          "NDC": "60505252703",
+          "UPC": "360505252732",
+          "GCN": "41478",
+          "PioneerRxItemID": "66168ae1-3393-4368-93df-6d8949917b86",
+          "DeaSchedule": "4",
+          "PartialFillDueDate": null,
+          "PartialFillSatisfiedDate": null,
+          "PartialFillSatisfiedByPersonID": "00000000-0000-0000-0000-000000000000",
+          "PartialFillDispensedQuantity": null,
+          "PartialFillTotalDispensedQuantity": null,
+          "Quantity": "30.00000",
+          "UnitText": "EA",
+          "DaysSupply": "30",
+          "LastFillDateTime": "2021-02-12T00:00:00",
+          "LabelType": "Generic",
+          "BrandName": "Provigil",
+          "GenericName": "modafinil 200 mg tablet",
+          "DrugName": "Modafinil    Tab 200mg",
+          "ImprintText": "White Scored Oval Tablet Side 1: Apo Side 2: Mod  200",
+          "Manufacturer": "Apotex Corp",
+          "LotNumber": null,
+          "LotExpirationDate": "2022-03-13T00:00:00",
+          "DispensedItemAlternateID": null,
+          "Group": "19241",
+          "SubstitutionText": "Substituted for Provigil",
+          "DosageFormText": "Tablet",
+          "DrugClassID": "1",
+          "DrugClassText": "Rx",
+          "LabelWarnings": {
+            "Warning": [
+              {
+                "RelativePriority": "1",
+                "WarningCode": "0001",
+                "WarningVendorCode": "1-1179",
+                "PharmexTextOnly": "May cause drowsiness. Alcohol and marijuana may intensify this effect. Use care when operating a vehicle, vessel (e.g., boat), or machinery."
+              },
+              {
+                "RelativePriority": "2",
+                "WarningCode": "0160",
+                "WarningVendorCode": "1-809",
+                "PharmexTextOnly": "Use during the 3rd trimester of pregnancy may cause serious health problems or withdrawal symptoms in the newborn. Discuss with your doctor or pharmacist."
+              },
+              {
+                "RelativePriority": "3",
+                "WarningCode": "0044",
+                "WarningVendorCode": "1-675",
+                "PharmexTextOnly": "Do not chew or crush before swallowing."
+              },
+              {
+                "RelativePriority": "4",
+                "WarningCode": "0010",
+                "WarningVendorCode": "10X",
+                "PharmexTextOnly": "Take with food."
+              },
+              {
+                "RelativePriority": "5",
+                "WarningCode": "0098",
+                "WarningVendorCode": "1-1003",
+                "PharmexTextOnly": "Call your doctor immediately if you have mental/mood changes like confusion, new/worsening feelings of sadness/fear, thoughts of suicide, or unusual behavior."
+              },
+              {
+                "RelativePriority": "6",
+                "WarningCode": "0062",
+                "WarningVendorCode": "1-715",
+                "PharmexTextOnly": "May cause dizziness"
+              },
+              {
+                "RelativePriority": "7",
+                "WarningCode": "0312",
+                "WarningVendorCode": "1-1046",
+                "PharmexTextOnly": "May sprinkle capsule contents on applesauce. Swallow mixture immediately without chewing."
+              },
+              {
+                "RelativePriority": "8",
+                "WarningCode": "0073",
+                "WarningVendorCode": "1-1188",
+                "PharmexTextOnly": "Patients regularly using NSAIDs (e.g. ibuprofen) and this drug may be at a greater risk for stomach bleeding and should consult their physician."
+              },
+              {
+                "RelativePriority": "9",
+                "WarningCode": "0298",
+                "WarningVendorCode": "1-1129",
+                "PharmexTextOnly": "Read the boxed warning information for this medication."
+              }
+            ]
+          },
+          "DispensedInventoryGroup": "RX",
+          "DispensedInventoryGroupExternalID": null,
+          "RefrigerationTypeID": "0",
+          "RefrigerationTypeText": "Not Required",
+          "UPC12WithCheckDigit": "360505252732",
+          "PrintName": "Modafinil    Tab 200mg",
+          "Is340B": "false",
+          "InventoryGroupID": "c02dca7a-cf73-48f7-a231-ee27407c775e",
+          "BalanceOnHandQuantity": "0.000000",
+          "EquivalentOnHandQuantity": "0.000000"
+        },
+        "CurrentRxStatusID": "11",
+        "CurrentRxStatusText": "Quantity Remaining",
+        "RxStatusChangedOnDateTimeUTC": "2021-03-13T19:38:40.973Z",
+        "CurrentRxTransactionStatusID": "10",
+        "CurrentRxTransactionStatusText": "Completed",
+        "RxTransactionStatusChangedOnDateTimeUTC": "2021-03-13T19:38:40.96Z",
+        "PreviousDateTimeFilled": "2021-02-12T00:00:00",
+        "OriginTypeID": "3",
+        "OriginTypeText": "Electronic",
+        "DateFilledUTC": "2021-03-13T05:00:00Z",
+        "DateWritten": "2020-12-17T00:00:00",
+        "ExpirationDateUTC": "2021-06-15T04:00:00Z",
+        "DawCodeID": "0",
+        "DawCodeText": "No Product Selection Indicated",
+        "DaysSupply": "30",
+        "QuantityRemaining": "120.000000",
+        "NumberOfRefillsAllowed": "1",
+        "NumberOfRefillsFilled": "1",
+        "RefillsRemaining": "1",
+        "FutureFill": "0",
+        "AllowPartialFills": "1",
+        "PrimaryDiagnosisSequenceNumber": null,
+        "SecondaryDiagnosisSequenceNumber": null,
+        "TertiaryDiagnosisSequenceNumber": null,
+        "SigCode": "T1T PO QD ",
+        "DirectionsTranslatedEnglish": "TAKE ONE TABLET BY MOUTH EVERY DAY",
+        "DirectionsTranslatedOtherLanguage": "TAKE ONE TABLET BY MOUTH EVERY DAY",
+        "HOA": null,
+        "IsCycleFill": "false",
+        "IsPrn": "false",
+        "DrugUseTypeID": "1",
+        "DrugUseTypeText": "Maintenance",
+        "PriorityTypeID": "2",
+        "PriorityTypeText": "Returning",
+        "PromiseTimeUTC": "2021-03-13T20:06:00Z",
+        "Comments": {
+          "RxComments": {
+            "Informational": null,
+            "Critical": null,
+            "PointOfSale": null
+          },
+          "FillComments": {
+            "Informational": null,
+            "Critical": null,
+            "PointOfSale": null
+          }
+        },
+        "CompletedDate": "2021-03-13T14:38:40.96",
+        "TrackingNumberVendor": null,
+        "TrackingNumber": null,
+        "PharmacistPioneerRxID": "d75f9e74-358e-4ede-9b22-e77c280ef1c9",
+        "CheckedByPharmacistPioneerRxID": "d75f9e74-358e-4ede-9b22-e77c280ef1c9",
+        "ChangedOnUTC": "2021-03-13T19:38:40.973Z",
+        "SpecialPackagingTypeID": "0",
+        "SpecialPackagingTypeText": "Not Specified",
+        "IngredientCostSubmitted": "1436.5700",
+        "IngredientCostPaid": "41.7700",
+        "DispensingFeeSubmitted": "13.5000",
+        "DispensingFeePaid": "0.8500",
+        "TaxRateSubmitted": "0.000000",
+        "TaxRatePaid": "0.000000",
+        "TaxAmountSubmitted": "0.0000",
+        "TaxAmountPaid": "0.0000",
+        "FlatSalesTaxAmount": "0.0000",
+        "TotalPriceSubmitted": "1450.0700",
+        "TotalPricePaid": "42.6200",
+        "SaleReceiptNumber": "9923",
+        "SaleReceiptBarcode": "S0000009923",
+        "SaleCompletedByEmployeePioneerRxID": "183998ba-5c20-4158-9430-e3b556a30a08",
+        "SaleCompletedOnDate": "2021-03-13T14:38:40.927",
+        "SaleTransactionPioneerRxID": "d71a283e-8b1a-4c05-9a7a-e6c9ec2bb76d",
+        "UsualCustomaryPrice": "1450.0700",
+        "UsualCustomaryPricePaid": null,
+        "AcquisitonCost": "17.1600",
+        "PatientPaidAmount": "0.0000",
+        "ExternalScheduleName": null,
+        "StartDate": null,
+        "EndDate": null,
+        "DataEntryByPioneerRxID": "183998ba-5c20-4158-9430-e3b556a30a08",
+        "FilledByPioneerRxID": "00000000-0000-0000-0000-000000000000",
+        "PreviousDispensedNDC": "60505252703",
+        "AutoRefill": "0",
+        "BasePriceScheduleName": "*Default AWP + 20%*",
+        "RenewalIndicator": "R",
+        "DirFeeTotal": "4.1770"
+      }
+    }
+  }
+}
